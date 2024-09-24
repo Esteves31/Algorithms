@@ -13,6 +13,7 @@ int main() {
     return EXIT_SUCCESS;
 }
 
+// The printArray function is only used to visualize how binary search works
 void printArray(int arr[], int low, int high) {
     printf("[");
     for (int i = low; i <= high; i++) {
