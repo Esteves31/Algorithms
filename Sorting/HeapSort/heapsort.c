@@ -10,7 +10,7 @@ int main () {
 }
 
 void printArray(int size, int arr[]) {
-    printf("[");
+    printf("[ ");
 
     for (int i = 0; i < size; i++) {
         if (i + 1 == size)
